@@ -1,0 +1,31 @@
+
+
+GET         /user/:id                    @controllers.UserController.get(id:String)
+GET         /userByMobile/:mobile        @controllers.UserController.findByMobile(mobile:String)
+POST        /user/register               @controllers.UserController.register
+PUT         /user/update                 @controllers.UserController.updateProfile()
+GET         /users                       @controllers.UserController.getUser
+
+GET         /search                      @controllers.UserController.search()
+
+GET         /role/:id                    @controllers.RoleController.get(id:Int)
+GET         /roles                       @controllers.RoleController.getRoles
+
+GET         /skills                      @controllers.SkillController.getSkills
+GET         /skill/:id                   @controllers.SkillController.get(id:Int)
+
+POST        /login                       @controllers.UserController.login
+
+POST        /sendGcm                     @controllers.UserController.sendGCM
+
+PUT         /location/update             @controllers.UserController.updateLocation()
+
+POST        /comment                     @controllers.CommentController.saveComment()
+GET         /comments                    @controllers.CommentController.getComments
+
+GET         /job/:job_id                 @controllers.JobController.get(job_id:Int)
+GET         /jobs                        @controllers.JobController.getJobs
+
+GET         /bids                        @controllers.BidController.getBids
+GET         /bid/:bid_id                 @controllers.BidController.get(bid_id:Int)
+GET         /bid/:job_id                 @controllers.BidController.getBid(job_id:Int)
