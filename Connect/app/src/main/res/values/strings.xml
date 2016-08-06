@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Connect</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_phone_number">Phone Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_sms_code">Verification Code</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_call">Call</string>
+    <string name="action_home">Home</string>
+    <string name="action_comment">Comment</string>
+    <string name="action_send">Post</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_verify">Verify</string>
+    <string name="action_save">Save</string>
+    <string name="action_search">Search</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_broadcast">Broadcast Job</string>
+    <string name="action_bid_status">Bid Status</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_re_enter_password">Re-Enter Password</string>
+    <string name="prompt_gender">First Name</string>
+    <string name="prompt_role">First Name</string>
+    <string name="prompt_services">First Name</string>
+    <string name="action_service_provider">Are you service provider.</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="skills_array">
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Locksmith</item>
+        <item>Carpenter</item>
+        <item>Drainer</item>
+        <item>DTH Operator</item>
+        <item>Lift Mechanic</item>
+        <item>Plasterer</item>
+        <item>AC Servicer</item>
+        <item>RO Servicer</item>
+        <item>PC/Laptop Repairer</item>
+        <item>Mobile Repairer</item>
+        <item>Finisher(Wood/Marble)</item>
+        <item>"Painter</item>
+        <item>Gardener</item>
+        <item>Packers and Movers</item>
+        <item>Milkman</item>
+    </string-array>
+</resources>

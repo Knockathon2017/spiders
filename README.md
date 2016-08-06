@@ -1,3 +1,5 @@
+#Connect package is regarding to implementation of Android App for skillConnect
+
 # Example application using play 2.5 and reactive mongo
 
 # Configure MongoDB

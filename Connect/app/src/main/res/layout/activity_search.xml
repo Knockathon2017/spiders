@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="connect.exzeo.com.connect.activity.SearchActivity">
+
+    <LinearLayout
+        android:id="@+id/pform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:background="@color/temp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/phone_register_form"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:weightSum="5"
+        android:background="@color/temp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/skills_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            style="@style/spinner_style"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/search_profile"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/action_search"
+            android:layout_weight="3"
+            android:textStyle="bold" />
+    </LinearLayout>
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@color/listDivider"
+            android:dividerHeight="1dp"
+            android:footerDividersEnabled="false"
+            style="@style/listBackground"
+            android:id="@+id/searchResultlList"/>
+    </LinearLayout>
+
+</RelativeLayout>
